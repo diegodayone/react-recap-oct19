@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn-primary {
+  color: yellow;
+  background-color:red;
+  border-color: rebeccapurple;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.book-row{
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: left;
+}
+
+.page-navigation{
+  font-size: 24px;
+}
+
+.page-navigation span{
+  margin-left:10px;
+  margin-right:10px;
+}
